@@ -1,0 +1,21 @@
+{
+  "name": "es2015_11282016",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+		"start": "node dist/index.js",
+		"inspect": "node --inspect --debug-brk dist/index.js",
+    "babel": "babel src -d dist --source-maps --sourceMaps=inline",
+    "babel:w": "babel src -d dist -w --source-maps --sourceMaps=inline"
+  },
+  "keywords": ["ES2015","ES2016","ES2017","JavaScript","ESLint","Babel"],
+  "author": "Eric W. Greene",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-eslint": "^6.1.2",
+    "babel-preset-latest": "^6.16.0",
+    "eslint": "^3.3.0"
+  }
+}
