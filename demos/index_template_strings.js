@@ -6,9 +6,7 @@
 
 const someVar = 'a great';
 
-var str = `This is ${someVar}
- way of dealing with multi-line
- strings, there must be a better way`;
+var str = `This is ${someVar} way of dealing with multi-line strings, there must be a better way`;
 
 
 console.log(str); 
