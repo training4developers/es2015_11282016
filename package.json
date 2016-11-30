@@ -4,17 +4,25 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-		"start": "node dist/index.js",
-		"inspect": "node --inspect --debug-brk dist/index.js",
+    "start": "node dist/index.js",
+    "inspect": "node --inspect --debug-brk dist/index.js",
     "babel": "babel src -d dist",
     "babel:w": "babel src -d dist -w"
   },
-  "keywords": ["ES2015","ES2016","ES2017","JavaScript","ESLint","Babel"],
+  "keywords": [
+    "ES2015",
+    "ES2016",
+    "ES2017",
+    "JavaScript",
+    "ESLint",
+    "Babel"
+  ],
   "author": "Eric W. Greene",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.11.4",
     "babel-eslint": "^6.1.2",
+    "babel-polyfill": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
     "eslint": "^3.3.0"
   }
