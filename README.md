@@ -60,6 +60,7 @@ Day 2
 - [TC39 Process - Feature Stages](http://www.2ality.com/2015/11/tc39-process.html)
 - [Official ES2016 Features](http://www.2ality.com/2016/01/ecmascript-2016.html)
 - [Possible ES2017 Features](http://www.2ality.com/2016/02/ecmascript-2017.html)
+- [ReactiveX Tutorial](http://reactivex.io/learnrx/)
 
 ## Setup Instructions
 
